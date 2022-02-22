@@ -11,6 +11,7 @@ public class MyController {
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
+		//new line added
 		//new branch created feature
 		//added comment nnnnnnnnnnn
 		String name = "Saurabh";
