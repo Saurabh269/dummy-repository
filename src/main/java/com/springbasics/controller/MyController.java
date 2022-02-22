@@ -14,6 +14,9 @@ public class MyController {
 		String name = "Saurabh";
 		if(name.length() <= 8) {
 			System.out.println("name should be greater than 9 characters.");
+		}else {
+			
+			System.out.println("name is correct and allowed.");
 		}
 		return "Hello, My name is Saurabh!";
 	}
