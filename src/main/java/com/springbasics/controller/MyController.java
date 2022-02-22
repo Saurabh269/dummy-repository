@@ -11,6 +11,6 @@ public class MyController {
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
-		return "Hello";
+		return "Hello, My name is Saurabh!";
 	}
 }
