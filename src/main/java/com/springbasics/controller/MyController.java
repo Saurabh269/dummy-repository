@@ -16,7 +16,6 @@ public class MyController {
 		//added comment in MyController in feature branch
 		//new line
 		//abcd
-		//def
 		String name = "Saurabh";
 		if(name.length() <= 8) {
 			System.out.println("name should be greater than 9 characters.");
