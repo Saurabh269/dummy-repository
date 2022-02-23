@@ -1,28 +1,25 @@
 package com.springbasics.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.springbasics.entity.Student;
+import com.springbasics.service.StudentServiceImpl;
+
 @RestController
 public class MyController {
+	
+	@Autowired
+	private StudentServiceImpl service;
 
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
-		//new line added
-		//new branch created feature
-		//added comment in MyController in feature branch
-		//new line
-		//abcd
-		String name = "Saurabh";
-		if(name.length() <= 8) {
-			System.out.println("name should be greater than 9 characters.");
-		}else {
-			
-			System.out.println("name is correct and allowed.");
-		}
+		
+		Student student = service.get();
 		return "Hello, My name is Saurabh!";
 	}
 }
