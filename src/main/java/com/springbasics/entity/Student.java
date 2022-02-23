@@ -1,5 +1,6 @@
 package com.springbasics.entity;
 
+//This is an entity class
 public class Student {
 
 	int id;
