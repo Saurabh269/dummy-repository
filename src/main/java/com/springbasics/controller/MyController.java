@@ -13,7 +13,7 @@ public class MyController {
 	public String getString() {
 		//new line added
 		//new branch created feature
-		//added comment in MyController
+		//added comment in MyController in feature branch
 		String name = "Saurabh";
 		if(name.length() <= 8) {
 			System.out.println("name should be greater than 9 characters.");
