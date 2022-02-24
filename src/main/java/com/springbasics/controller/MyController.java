@@ -15,7 +15,7 @@ public class MyController {
 	@Autowired
 	private StudentServiceImpl service;
 
-	//rajesh
+	
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
