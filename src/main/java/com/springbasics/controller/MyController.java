@@ -15,11 +15,13 @@ public class MyController {
 	@Autowired
 	private StudentServiceImpl service;
 
+	//aman
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
 		
 		Student student = service.get();
+		System.out.println(student);
 		return "Hello, My name is Saurabh!";
 	}
 }
