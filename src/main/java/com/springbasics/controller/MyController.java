@@ -23,10 +23,9 @@ public class MyController {
 	public String getString() {
 		
 		Student student = service.get();
+
 		if(student!=null && student.getName()!=null) {
 			System.out.println("correct");
-		}else {
-			System.out.println("incorrect");
 		}
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
