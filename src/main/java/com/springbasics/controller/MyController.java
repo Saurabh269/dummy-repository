@@ -23,10 +23,8 @@ public class MyController {
 	public String getString() {
 		
 		Student student = service.get();
-		if(student.getName().equals("Saurabh") && student.getId() == 100|| student!=null) {
+		if(null != student) {
 			System.out.println("correct");
-		}else {
-			System.out.println("incorrect");
 		}
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
