@@ -16,7 +16,7 @@ public class MyController {
 	private StudentServiceImpl service;
 
 //gfgfdgfdgf
-
+//sdsd
 	//aman & rajesh
 	@GetMapping("/name")
 	//@ResponseBody
