@@ -22,6 +22,9 @@ public class MyController {
 	public String getString() {
 		
 		Student student = service.get();
+		if(student.getName().equals("Saurabh")) {
+			System.out.println("correct");
+		}
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
 	}
