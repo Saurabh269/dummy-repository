@@ -22,7 +22,7 @@ public class MyController {
 	public String getString() {
 		
 		Student student = service.get();
-		if(student.getName().equals("Saurabh") && student.getId() == 100 || student.getId()>100) {
+		if(student.getName().equals("Saurabh") && student.getId() == 100|| student!=null || student.getId()>100) {
 			System.out.println("correct");
 		}else {
 			System.out.println("incorrect");
@@ -30,4 +30,4 @@ public class MyController {
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
 	}
-}
+}//nn
