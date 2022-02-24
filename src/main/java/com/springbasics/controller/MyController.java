@@ -17,7 +17,6 @@ public class MyController {
 
 //gfgfdgfdgf
 
-//ssdsdsd
 	//aman & rajesh
 	@GetMapping("/name")
 	//@ResponseBody
