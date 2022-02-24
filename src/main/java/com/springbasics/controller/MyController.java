@@ -24,6 +24,7 @@ public class MyController {
 		
 		Student student = service.get();
 
+
 		if(student!=null && student.getName()!=null && student.getId() !=0 && student.getId()>0) {
 			System.out.println("correct");
 		}
