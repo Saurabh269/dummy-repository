@@ -12,6 +12,7 @@ import com.springbasics.service.StudentServiceImpl;
 @RestController
 public class MyController {
 
+	//mnmnmnm
 	@Autowired
 	private StudentServiceImpl service;
 
