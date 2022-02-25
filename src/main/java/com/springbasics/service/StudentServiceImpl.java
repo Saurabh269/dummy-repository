@@ -10,7 +10,7 @@ public class StudentServiceImpl {
 	private Student student;
 	
 	public StudentServiceImpl() {
-		student = new Student(100, "Saurabh");
+		student = new Student();
 	}
 
 	public Student get() {

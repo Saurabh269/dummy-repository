@@ -11,13 +11,10 @@ import com.springbasics.service.StudentServiceImpl;
 
 @RestController
 public class MyController {
-	//mmm
+
 	@Autowired
 	private StudentServiceImpl service;
 
-//gfgfdgfdgf
-//nbnbnb
-	//aman & rajesh
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
@@ -30,7 +27,5 @@ public class MyController {
 		}
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
-		//hjhjfjgf
-		//new line
 	}
-}//nn
+}
