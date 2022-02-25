@@ -11,24 +11,23 @@ import com.springbasics.service.StudentServiceImpl;
 
 @RestController
 public class MyController {
-	//mmm
+
+	//mnmnmnm
+	//nbnbnb
 	@Autowired
 	private StudentServiceImpl service;
 
-//gfgfdgfdgf
-
-	//aman & rajesh
 	@GetMapping("/name")
 	//@ResponseBody
 	public String getString() {
 		
 		Student student = service.get();
-		if(student.getName().equals("Saurabh") && student.getId() == 100|| student!=null) {
+
+
+		if(student!=null && student.getName()!=null && student.getId() !=0 && student.getId()>0) {
 			System.out.println("correct");
-		}else {
-			System.out.println("incorrect");
 		}
 		System.out.println(student);
 		return "Hello, My name is Saurabh!";
 	}
-}//nn
+}

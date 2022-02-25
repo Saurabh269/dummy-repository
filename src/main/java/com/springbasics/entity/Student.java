@@ -5,16 +5,25 @@ public class Student {
 
 	int id;
 	String name;
+	String salary;
 
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
+		//construtor
+		//line1
+		//line2
+		//line3
+		//line4
+		//line5
+		//line6
 	}
 
-	public Student(int id, String name) {
+	public Student(int id, String name, String salary) {
 		super();
 		this.id = id;
 		this.name = name;
+		this.salary = salary;
 	}
 
 	public int getId() {
@@ -33,9 +42,18 @@ public class Student {
 		this.name = name;
 	}
 
-	@Override
-	public String toString() {
-		return "Student [id=" + id + ", name=" + name + "]";
+	public String getSalary() {
+		return salary;
 	}
 
+	public void setSalary(String salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", salary=" + salary + "]";
+	}
+
+	
 }
